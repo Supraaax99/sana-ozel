@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🤍 için Özel Site</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0f3d2e;
+      color: white;
+    }
+    header, section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header {
+      background: url('https://images.unsplash.com/photo-1504208434309-cb69f4fe52b0') center/cover no-repeat;
+      background-color: #0f3d2eaa;
+      background-blend-mode: multiply;
+    }
+    h1 {
+      font-size: 3em;
+      margin-bottom: 0;
+    }
+    h2 {
+      font-size: 2em;
+      color: #c3f5d3;
+    }
+    p {
+      max-width: 600px;
+      margin: 20px auto;
+      font-size: 1.2em;
+    }
+    .gallery {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .gallery img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 12px;
+      border: 2px solid #fff;
+    }
+    footer {
+      padding: 40px 20px;
+      background-color: #09281e;
+      font-size: 1.1em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🤍 için Hazırlandı</h1>
+    <p>Kalbimdeki en güzel yer sana ait...</p>
+  </header>
+
+  <section>
+    <h2>Kahverengi Gözlerin</h2>
+    <p>Onlara baktığımda dünya susuyor. Sadece sen ve ben kalıyoruz.</p>
+  </section>
+
+  <section>
+    <h2>Yeşilin En Güzel Hali</h2>
+    <p>Yeşil senin rengin… huzur, doğa ve kalbinin yansıması.</p>
+  </section>
+
+  <section>
+    <h2>Beyaz Güller</h2>
+    <div class="gallery">
+      <img src="https://images.unsplash.com/photo-1562157873-818bc0726f5b" alt="Beyaz Gül">
+      <img src="https://images.unsplash.com/photo-1611415519650-0c5e1c25e3c6" alt="Beyaz Gül">
+      <img src="https://images.unsplash.com/photo-1603354350317-5701a60e5b9d" alt="Beyaz Gül">
+    </div>
+  </section>
+
+  <section>
+    <h2>Kediler ve Sen</h2>
+    <div class="gallery">
+      <img src="https://images.unsplash.com/photo-1592194996308-7b43878e84a6" alt="Kedi">
+      <img src="https://images.unsplash.com/photo-1574158622682-e40e69881006" alt="Kedi">
+      <img src="https://images.unsplash.com/photo-1583337130417-3346a1a4a67e" alt="Kedi">
+    </div>
+  </section>
+
+  <footer>
+    <p>Tüm bunları seni gülümsetmek, mutlu etmek ve belki de kalbini yeniden kazanmak için yaptım.</p>
+    <p>Seninle her şey daha güzel 🤍</p>
+  </footer>
+</body>
+</html>
